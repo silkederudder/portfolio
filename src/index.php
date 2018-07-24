@@ -10,6 +10,22 @@ $routes = array(
   'home' => array(
     'controller' => 'Pages',
     'action' => 'index'
+  ),
+  'about' => array(
+    'controller' => 'Pages',
+    'action' => 'about'
+  ),
+  'detail' => array(
+    'controller' => 'Projects',
+    'action' => 'detail'
+  ),
+  'overview' => array(
+    'controller' => 'Projects',
+    'action' => 'overview'
+  ),
+  'error' => array(
+    'controller' => 'Projects',
+    'action' => 'error'
   )
 );
 
