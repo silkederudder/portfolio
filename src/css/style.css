@@ -10,3 +10,15 @@ html {
 *, *:before, *:after { /*stylelint-disable-line*/
   box-sizing: inherit;
 }
+
+.wf-gtwalsheimpro-n4-active {
+
+  & body {
+    font-family: 'GT_Walsheim_Pro';
+    font-weight: 400;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+}
