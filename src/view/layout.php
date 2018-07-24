@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-  <title>Silke Derudder &#45; <?php echo $title; ?></title>
+  <title>Silke Derudder</title>
   <?php echo $css ?>
   <script>
     WebFontConfig = {
@@ -31,7 +31,7 @@
 </head>
   <body>
   <header>
-        <h1 class="title">Silke Derudder</h1>
+        <h1 class="title hide">Silke Derudder</h1>
         <nav class="navigation">
           <ul>
             <li class="nav-title">
