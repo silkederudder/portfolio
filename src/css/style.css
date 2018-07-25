@@ -44,6 +44,10 @@ body {
   display: none;
 }
 
+.lastname {
+  display: none;
+}
+
 .link {
   text-decoration: underline;
 
@@ -87,6 +91,7 @@ body {
 .nav-link {
 
   &:hover {
+    transition: color .2s linear;
     color: var(--melon);
   }
 }
@@ -96,6 +101,8 @@ body {
 }
 
 .navigation {
+  font-size: 1.8rem;
+  line-height: 2rem;
   margin-bottom: 5rem;
 }
 
@@ -213,7 +220,7 @@ body {
 
 .term {
   margin: 1.6rem 0 .8rem;
-  color: #575757;
+  color: var(--grey);
   text-transform: uppercase;
   font-size: 1.4rem;
   line-height: 1.6rem;
@@ -223,4 +230,88 @@ body {
 .section-detail {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-width: 500px) {
+
+  .lastname {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  body {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .navigation {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  .quote-big {
+    font-size: 6rem;
+    line-height: 6.9rem;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  .more {
+    font-size: 3.2rem;
+  }
+
+  .intro-text {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  .term {
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+    margin-top: 1.2rem;
+  }
+
+  .subtitle {
+    font-size: 4rem;
+    line-height: 4.6rem;
+    margin-bottom: 7.2rem;
+  }
+
+  .heading {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  .project-detail-img {
+    margin: 3.2rem 0;
+  }
+
+  .intro {
+    /* height: calc(100vh - 11rem); NOG BEREKENEN */
+  }
+
+  .section-projects {
+    width: 90vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .project-item {
+    max-width: 44vw;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .project-item {
+    max-width: 29vw;
+  }
 }

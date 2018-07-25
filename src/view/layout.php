@@ -35,7 +35,7 @@
         <nav class="navigation">
           <ul>
             <li class="nav-title">
-              <a href="<?php echo 'index.php?page=home' ?>" class="nav-link-title">Silke</a>
+              <a href="<?php echo 'index.php?page=home' ?>" class="nav-link-title">Silke <span class="lastname">Derudder</span> </a>
             </li>
           </ul>
           <ul class="nav-items">
