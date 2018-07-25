@@ -1,9 +1,9 @@
 <section class="section-about">
   <h2 class="subtitle hide">About</h2>
     <article class="article-about">
-      <header>
+      <header class="about-header">
         <h3 class="heading hide">About me</h3>
-        <!-- image here -->
+        <img class="silke" src="assets/images/silke.jpg" alt="This is me with a bagel." width="4000" height="6000"/>
       </header>
       <div class="about-content">
         <blockquote class="quote-small heading">I’m Silke, a curious developer with an eye for design.</blockquote>
