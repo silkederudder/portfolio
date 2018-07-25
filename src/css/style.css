@@ -21,6 +21,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
   width: 90vw;
@@ -28,8 +29,41 @@ body {
   line-height: 1.8rem;
 }
 
+.text {
+  margin-bottom: 1.6rem;
+}
+
 .hide {
   display: none;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 1.6rem;
+}
+
+.link, .social-link {
+  color: white;
+  margin-right: 1.6rem;
+}
+
+.social-link {
+  text-decoration: none;
+
+  & svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  &:hover {
+
+    & path {
+      fill: var(--melon);
+    }
+  }
 }
 
 .nav-link {
@@ -73,4 +107,18 @@ body {
 .intro-text {
   font-size: 1.9rem;
   line-height: 2.2rem;
+  margin-bottom: 5rem;
+}
+
+.heading {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  margin-bottom: .8rem;
+  font-weight: bold;
+  margin-top: 3.9rem;
+}
+
+.quote-small {
+  color: var(--melon);
+  margin-bottom: 1.6rem;
 }
