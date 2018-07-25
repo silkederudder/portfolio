@@ -127,3 +127,48 @@ body {
   width: 15.2rem;
   height: auto;
 }
+
+.project-item {
+  position: relative;
+  margin-bottom: 1rem;
+
+  /* &:hover {
+
+    &.project-title {
+      transition: opacity .25s linear;
+      opacity: 0;
+    }
+  } */
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  filter: grayscale(100%);
+
+  &:hover {
+    transition: filter .25s linear;
+    filter: none;
+  }
+}
+
+.more, .project-title {
+  pointer-events: none;
+  font-weight: bold;
+  line-height: 2rem;
+  color: black;
+  z-index: 1;
+  bottom: 1.6rem;
+  position: absolute;
+}
+
+.more {
+  right: 1.4rem;
+  font-size: 3rem;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  left: 1.4rem;
+}
