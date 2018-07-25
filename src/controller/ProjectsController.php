@@ -32,7 +32,7 @@ class ProjectsController extends Controller {
 
     $this->set('project', $project);
     $this->set('title', 'Detail');
-    $this->set('currentPage', 'detail');
+    $this->set('currentPage', 'overview');
   }
 
   public function error() {

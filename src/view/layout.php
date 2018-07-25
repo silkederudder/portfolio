@@ -35,7 +35,7 @@
         <nav class="navigation">
           <ul>
             <li class="nav-title">
-              <a href="<?php echo 'index.php?page=home' ?>" class="nav-link <?php if($currentPage == 'home') echo ' nav-active';?>">Silke</a>
+              <a href="<?php echo 'index.php?page=home' ?>" class="nav-link-title">Silke</a>
             </li>
           </ul>
           <ul class="nav-items">
