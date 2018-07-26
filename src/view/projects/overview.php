@@ -1,6 +1,6 @@
 <section class="section-quote">
   <h2 class="subtitle hide">Intro</h2>
-  <blockquote class="quote-big">I’m Silke, a curious developer with an eye for design.</blockquote>
+  <blockquote class="quote-big">I’m Silke, a creative developer with an eye for design.</blockquote>
   <p class="intro-text">Currently looking for an awesome internship.</p>
 </section>
 <section class="section-projects">

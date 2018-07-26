@@ -2,11 +2,10 @@
   <h2 class="subtitle hide">About</h2>
     <article class="article-about">
       <header class="about-header">
-        <h3 class="heading hide">About me</h3>
         <img class="silke" src="assets/images/silke.jpg" alt="This is me with a bagel." width="3691" height="4950"/>
       </header>
       <div class="about-content">
-        <blockquote class="quote-small heading">console.log("Hello World!");</blockquote>
+        <h3 class="heading quote-small">console.log("Hello World!");</h3>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. You can <a href="#" class="link">check out my resume</a> to know more about my skills.</p>
         <address class="contact">

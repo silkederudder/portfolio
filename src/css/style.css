@@ -121,16 +121,21 @@ body {
 }
 
 .quote-big {
+  max-width: 80rem;
   color: var(--melon);
   font-weight: bold;
-  font-size: 3.3rem;
-  line-height: 3.8rem;
-  margin-bottom: 3.2rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-quote {
+  margin-bottom: 5rem;
 }
 
 .intro-text {
-  font-size: 1.9rem;
-  line-height: 2.2rem;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
   margin-bottom: 5rem;
 }
 
@@ -236,6 +241,10 @@ body {
 
 @media only screen and (min-width: 768px) {
 
+  .section-quote {
+    margin-bottom: 7.9rem;
+  }
+
   .navigation {
     margin-bottom: 7.9rem;
   }
@@ -279,8 +288,8 @@ body {
   }
 
   .quote-big {
-    font-size: 6rem;
-    line-height: 6.9rem;
+    font-size: 4.5rem;
+    line-height: 5.5rem;
   }
 
   .project-title {
@@ -293,8 +302,8 @@ body {
   }
 
   .intro-text {
-    font-size: 2.5rem;
-    line-height: 2.8rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
   }
 
   .term {
