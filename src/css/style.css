@@ -169,11 +169,6 @@ body {
 
   &:hover {
 
-    & .project-title {
-      transition: color .2s linear;
-      color: white;
-    }
-
     & .more {
       transition: opacity .2s linear;
       opacity: 100;
@@ -196,10 +191,10 @@ body {
 .more, .project-title {
   pointer-events: none;
   font-weight: bold;
-  line-height: 2rem;
-  color: black;
+  line-height: 2.2rem;
+  color: white;
   z-index: 1;
-  bottom: 1.6rem;
+  bottom: 1rem;
   position: absolute;
 }
 
