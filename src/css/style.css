@@ -52,8 +52,8 @@ body {
   text-decoration: underline;
 
   &:hover {
-    transition: color .2s linear;
-    color: var(--melon);
+    transition: color .15s linear;
+    color: var(--grey);
   }
 }
 
@@ -77,8 +77,8 @@ body {
   &:hover {
 
     & .fill {
-      transition: fill .2s linear;
-      fill: var(--melon);
+      transition: fill .15s linear;
+      fill: var(--grey);
     }
   }
 }
@@ -89,15 +89,16 @@ body {
 }
 
 .nav-link {
+  padding: 0 .2rem .2rem;
 
   &:hover {
-    transition: color .2s linear;
-    color: var(--melon);
+    transition: color .15s linear;
+    color: var(--grey);
   }
 }
 
 .nav-active {
-  color: var(--melon);
+  border-bottom: .1rem solid white;
 }
 
 .navigation {
@@ -158,6 +159,10 @@ body {
   height: auto;
 }
 
+.back {
+  text-decoration: none;
+}
+
 .project-item {
   position: relative;
   margin-bottom: 1rem;
@@ -165,12 +170,12 @@ body {
   &:hover {
 
     & .project-title {
-      transition: color .25s linear;
+      transition: color .2s linear;
       color: white;
     }
 
     & .more {
-      transition: opacity .25s linear;
+      transition: opacity .2s linear;
       opacity: 100;
     }
   }
@@ -282,11 +287,6 @@ body {
     line-height: 2rem;
   }
 
-  .navigation {
-    font-size: 2rem;
-    line-height: 2.3rem;
-  }
-
   .quote-big {
     font-size: 4.5rem;
     line-height: 5.5rem;
@@ -315,7 +315,7 @@ body {
   .subtitle {
     font-size: 4rem;
     line-height: 4.6rem;
-    margin-bottom: 7.2rem;
+    margin-bottom: 3.3rem;
   }
 
   .heading {
@@ -350,7 +350,7 @@ body {
 
   .detail-info {
     grid-area: detail;
-    margin-left: 2.3rem;
+    margin-left: 3.4rem;
   }
 
   .brief {
