@@ -120,13 +120,6 @@ body {
   font-weight: bold;
 }
 
-.intro {
-  height: calc(100vh - 12.2rem);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .quote-big {
   color: var(--melon);
   font-weight: bold;
@@ -242,10 +235,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-
-  .intro {
-    height: calc(100vh - 17rem);
-  }
 
   .navigation {
     margin-bottom: 7.9rem;

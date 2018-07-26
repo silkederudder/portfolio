@@ -7,10 +7,6 @@ define('DS', DIRECTORY_SEPARATOR);
 define('WWW_ROOT', __DIR__ . DS);
 
 $routes = array(
-  'home' => array(
-    'controller' => 'Pages',
-    'action' => 'index'
-  ),
   'about' => array(
     'controller' => 'Pages',
     'action' => 'about'
@@ -30,7 +26,7 @@ $routes = array(
 );
 
 if(empty($_GET['page'])) {
-  $_GET['page'] = 'home';
+  $_GET['page'] = 'overview';
 }
 if(empty($routes[$_GET['page']])) {
   header('Location: index.php?page=error');

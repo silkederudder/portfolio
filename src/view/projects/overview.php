@@ -1,3 +1,8 @@
+<section class="section-quote">
+  <h2 class="subtitle hide">Intro</h2>
+  <blockquote class="quote-big">I’m Silke, a curious developer with an eye for design.</blockquote>
+  <p class="intro-text">Currently looking for an awesome internship.</p>
+</section>
 <section class="section-projects">
   <h2 class="subtitle hide">Projects</h2>
   <?php foreach ($projects as $key => $project): ?>
