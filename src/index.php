@@ -29,7 +29,7 @@ if(empty($_GET['page'])) {
   $_GET['page'] = 'overview';
 }
 if(empty($routes[$_GET['page']])) {
-  header('Location: index.php?page=error');
+  header('Location:' . $siteUrlRoot . '/error');
   exit();
 }
 

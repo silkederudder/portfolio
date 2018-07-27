@@ -26,7 +26,7 @@ class ProjectsController extends Controller {
 
     if (empty($project)) {
       $_SESSION['error'] = '404 page not found.';
-      header('Location: index.php?page=error');
+      header('Location:' . $siteUrlRoot . '/error');
       exit();
     }
 

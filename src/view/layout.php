@@ -35,27 +35,21 @@
         <nav class="navigation">
           <ul>
             <li class="nav-title">
-              <a href="<?php echo 'index.php?page=overview' ?>" class="nav-link-title">Silke <span class="lastname">Derudder</span> </a>
+              <a href="<?php echo $siteUrlRoot;?>" class="nav-link-title">Silke <span class="lastname">Derudder</span> </a>
             </li>
           </ul>
           <ul class="nav-items">
             <li class="nav-item">
-              <a href="<?php echo 'index.php?page=overview' ?>" class="nav-link <?php if($currentPage == 'overview') echo ' nav-active';?>">Projects</a>
+              <a href="<?php echo $siteUrlRoot;?>" class="nav-link <?php if($currentPage == 'overview') echo ' nav-active';?>">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="<?php echo 'index.php?page=about' ?>" class="nav-link <?php if($currentPage == 'about') echo ' nav-active';?>">About</a>
+              <a href="<?php echo $siteUrlRoot;?>about" class="nav-link <?php if($currentPage == 'about') echo ' nav-active';?>">About</a>
             </li>
           </ul>
         </nav>
       </header>
       <main>
         <?php
-          if(!empty($_SESSION['error'])) {
-            echo '<div class="error">' . $_SESSION['error'] . '</div>';
-          }
-          if(!empty($_SESSION['info'])) {
-            echo '<div class="info">' . $_SESSION['info'] . '</div>';
-          }
           echo $content;
         ?>
       </main>

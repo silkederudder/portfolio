@@ -1,4 +1,4 @@
-<a class="link back" href="index.php?page=overview">← All projects</a>
+<a class="link back" href="<?php echo $siteUrlRoot;?>">← All projects</a>
 <section class="section-detail">
   <h2 class="subtitle subtitle-detail"><?php echo $project['title'] ?></h2>
           <picture class="project-detail-img">
@@ -31,6 +31,7 @@
             alt="<?php echo $project['title'] ?>"/>
         </picture>
   <article class="detail-info">
+  <h3 class="hide">Project info</h3>
     <dl class="info-list">
       <dt class="term">Team</dt>
       <dd class="text definition"><?php echo $project['team'] ?></dd>
@@ -46,12 +47,11 @@
   </article>
   <article class="brief">
     <h3 class="heading">Brief</h3>
-    <p class="text"><?php echo $project['brief'] ?></p>
+    <?php echo $project['brief'] ?>
   </article>
-</article>
   <article class="concept">
   <h3 class="heading">Progress &amp; concept</h3>
-  <p class="text"><?php echo $project['concept'] ?></p>
+  <?php echo $project['concept'] ?>
 </article>
   <article class="visuals">
     <h3 class="heading">Visuals</h3>
