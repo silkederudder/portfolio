@@ -20,7 +20,7 @@
             sizes="(max-width: 319px) 90vw,
             (min-width: 320px) 40vw,
             (min-width: 1200px) 32.5vw,
-            (min-width: 1400px) 28vw,"
+            (min-width: 1400px) 28vw"
             class="silke"
             srcset="
             assets/images/silke_320.jpg 320w,
@@ -37,7 +37,7 @@
         <h3 class="heading quote-small">console.log("Hello World!");</h3>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. You can <a href="#" class="link">check out my resume</a> to know more about my skills.</p>
-        <address class="contact">
+        <div class="contact">
           <h3 class="heading">Get in touch</h3>
           <a class="link" href="mailto:hello@silkederudder.be">hello@silkederudder.be</a>
           <div class="social-media">
@@ -66,7 +66,7 @@
               </svg>
             </a>
           </div>
-        </address>
+        </div>
       </div>
     </article>
 </section>

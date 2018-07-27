@@ -9,7 +9,7 @@
     <a href="index.php?page=detail&amp;id=<?php echo $project['id']; ?>" class="project-link">
       <article class="project-item">
         <h3 class="project-title"><?php echo $project['title'] ?></h3>
-        <p class="more">&#43</p>
+        <p class="more">&#43;</p>
         <picture class="project-img">
           <source class="project-img" media="(min-width: 1680px)" srcset="assets/images/<?php echo $project['cover'] ?>_1920.webp" type="image/webp"/>
           <source class="project-img" media="(min-width: 1680px)" srcset="assets/images/<?php echo $project['cover'] ?>_1920.jpg"/>

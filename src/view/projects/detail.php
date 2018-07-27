@@ -1,7 +1,35 @@
 <a class="link back" href="index.php?page=overview">← All projects</a>
 <section class="section-detail">
   <h2 class="subtitle subtitle-detail"><?php echo $project['title'] ?></h2>
-  <img class="project-detail-img" src="assets/images/<?php echo $project['cover'] ?>.jpg" alt="Project image of <?php echo $project['title'] ?>" width="3598" height="2303"/>
+          <picture class="project-detail-img">
+          <source class="project-detail-img" media="(min-width: 1680px)" srcset="assets/images/<?php echo $project['cover'] ?>_1920.webp" type="image/webp"/>
+          <source class="project-detail-img" media="(min-width: 1680px)" srcset="assets/images/<?php echo $project['cover'] ?>_1920.jpg"/>
+          <source class="project-detail-img" media="(min-width: 1220px)" srcset="assets/images/<?php echo $project['cover'] ?>_1440.webp" type="image/webp"/>
+          <source class="project-detail-img" media="(min-width: 1220px)" srcset="assets/images/<?php echo $project['cover'] ?>_1440.jpg"/>
+          <source class="project-detail-img" media="(min-width: 884px)" srcset="assets/images/<?php echo $project['cover'] ?>_1000.webp" type="image/webp"/>
+          <source class="project-detail-img" media="(min-width: 884px)" srcset="assets/images/<?php echo $project['cover'] ?>_1000.jpg"/>
+          <source class="project-detail-img" media="(min-width: 620px)" srcset="assets/images/<?php echo $project['cover'] ?>_760.webp" type="image/webp"/>
+          <source class="project-detail-img" media="(min-width: 620px)" srcset="assets/images/<?php echo $project['cover'] ?>_760.jpg"/>
+          <source class="project-detail-img" media="(min-width: 400px)" srcset="assets/images/<?php echo $project['cover'] ?>_480.webp" type="image/webp"/>
+          <source class="project-detail-img" media="(min-width: 400px)" srcset="assets/images/<?php echo $project['cover'] ?>_480.jpg"/>
+          <source class="project-detail-img" media="(max-width: 399px)" srcset="assets/images/<?php echo $project['cover'] ?>_320.webp" type="image/webp"/>
+          <source class="project-detail-img" media="(max-width: 399px)" srcset="assets/images/<?php echo $project['cover'] ?>_320.jpg"/>
+
+          <img
+            sizes="(max-width: 319px) 90vw,
+            (min-width: 320px) 90vw,
+            (min-width: 1200px) 65vw"
+            class="project-detail-img"
+            srcset="
+            assets/images/<?php echo $project['cover'] ?>_320.jpg 320w,
+            assets/images/<?php echo $project['cover'] ?>_480.jpg 480w,
+            assets/images/<?php echo $project['cover'] ?>_760.jpg 760w,
+            assets/images/<?php echo $project['cover'] ?>_1000.jpg 1000w,
+            assets/images/<?php echo $project['cover'] ?>_1440.jpg 1440w,
+            assets/images/<?php echo $project['cover'] ?>_1920.jpg 1920w"
+            src="assets/images/<?php echo $project['cover'] ?>_1920.jpg"
+            alt="<?php echo $project['title'] ?>"/>
+        </picture>
   <article class="detail-info">
     <dl class="info-list">
       <dt class="term">Team</dt>
