@@ -2,7 +2,36 @@
   <h2 class="subtitle hide">About</h2>
     <article class="article-about">
       <header class="about-header">
-        <img class="silke" src="assets/images/silke.jpg" alt="This is me with a bagel." width="3691" height="4950"/>
+      <picture class="silke">
+          <source class="silke" media="(min-width: 1680px)" srcset="assets/images/silke_1920.webp" type="image/webp"/>
+          <source class="silke" media="(min-width: 1680px)" srcset="assets/images/silke_1920.jpg"/>
+          <source class="silke" media="(min-width: 1220px)" srcset="assets/images/silke_1440.webp" type="image/webp"/>
+          <source class="silke" media="(min-width: 1220px)" srcset="assets/images/silke_1440.jpg"/>
+          <source class="silke" media="(min-width: 884px)" srcset="assets/images/silke_1000.webp" type="image/webp"/>
+          <source class="silke" media="(min-width: 884px)" srcset="assets/images/silke_1000.jpg"/>
+          <source class="silke" media="(min-width: 620px)" srcset="assets/images/silke_760.webp" type="image/webp"/>
+          <source class="silke" media="(min-width: 620px)" srcset="assets/images/silke_760.jpg"/>
+          <source class="silke" media="(min-width: 400px)" srcset="assets/images/silke_480.webp" type="image/webp"/>
+          <source class="silke" media="(min-width: 400px)" srcset="assets/images/silke_480.jpg"/>
+          <source class="silke" media="(max-width: 399px)" srcset="assets/images/silke_320.webp" type="image/webp"/>
+          <source class="silke" media="(max-width: 399px)" srcset="assets/images/silke_320.jpg"/>
+
+          <img
+            sizes="(max-width: 319px) 90vw,
+            (min-width: 320px) 40vw,
+            (min-width: 1200px) 32.5vw,
+            (min-width: 1400px) 28vw,"
+            class="silke"
+            srcset="
+            assets/images/silke_320.jpg 320w,
+            assets/images/silke_480.jpg 480w,
+            assets/images/silke_760.jpg 760w,
+            assets/images/silke_1000.jpg 1000w,
+            assets/images/silke_1440.jpg 1440w,
+            assets/images/silke_1920.jpg 1920w"
+            src="assets/images/silke_1920.jpg"
+            alt="<?php echo $project['title'] ?>"/>
+        </picture>
       </header>
       <div class="about-content">
         <h3 class="heading quote-small">console.log("Hello World!");</h3>

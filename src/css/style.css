@@ -29,6 +29,10 @@ body {
   line-height: 1.8rem;
 }
 
+::selection {
+  background-color: white;
+}
+
 .subtitle {
   font-size: 2.8rem;
   line-height: 3.2rem;
@@ -369,6 +373,17 @@ body {
 }
 
 @media only screen and (min-width: 1440px) {
+
+  body {
+    width: 80vw;
+  }
+
+  .project-item {
+    max-width: 39vw;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
 
   body {
     width: 80vw;
