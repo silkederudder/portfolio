@@ -15,9 +15,9 @@ class Controller {
       $this->isAjax = true;
     }
     $this->set('css', '');
-    $this->set('js', '<script src="http://192.168.1.3:8080/js/script.js"></script>');
+    $this->set('js', '<script src="http://192.168.1.28:8080/js/script.js"></script>');
     if($this->env == 'production') {
-      $this->set('css', '<link rel="stylesheet" href="css/style.css">');
+      $this->set('css', '<link rel="stylesheet" href="https://www.silkederudder.be/css/style.css">');
       $this->set('js', '<script src="js/script.js"></script>');
     }
     call_user_func(array($this, $this->route['action']));
