@@ -16,7 +16,7 @@
     WebFontConfig = {
       custom: {
         families: ['GT_Walsheim_Pro'],
-        urls: ['assets/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro.css']
+        urls: ['../assets/fonts/GT-Walsheim-Pro/GT-Walsheim-Pro.css']
       }
     };
 
