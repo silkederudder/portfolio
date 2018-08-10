@@ -215,13 +215,11 @@ body {
 }
 
 .project-detail-img {
-  width: 100%;
-  height: auto;
   order: -1;
   margin-bottom: 1.1rem;
 }
 
-.video video {
+.video video, .visual, .project-detail-img {
   width: 100%;
   height: auto;
 }
@@ -249,6 +247,11 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+
+  .visuals-container {
+    display: flex;
+    justify-content: center;
+  }
 
   .section-quote {
     margin-bottom: 7.9rem;

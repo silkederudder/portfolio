@@ -27,7 +27,7 @@
           <img
             sizes="(max-width: 319px) 90vw,
             (min-width: 320px) 90vw,
-            (min-width: 1200px) 44vw"
+            (min-width: 760px) 45vw"
             class="project-img"
             srcset="
             assets/images/<?php echo $project['cover'] ?>_320.jpg 320w,
