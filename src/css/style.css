@@ -253,6 +253,10 @@ body {
     justify-content: center;
   }
 
+  .visual {
+    width: 45vw;
+  }
+
   .section-quote {
     margin-bottom: 7.9rem;
   }
