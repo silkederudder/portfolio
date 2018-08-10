@@ -26,7 +26,7 @@ body {
   color: white;
   width: 90vw;
   margin: 2.7rem auto;
-  line-height: 1.8rem;
+  line-height: 2.3rem;
 }
 
 ::selection {
@@ -57,7 +57,7 @@ body {
 
   &:hover {
     transition: color .15s linear;
-    color: var(--grey);
+    color: var(--melon);
   }
 }
 
@@ -82,7 +82,7 @@ body {
 
     & .fill {
       transition: fill .15s linear;
-      fill: var(--grey);
+      fill: var(--melon);
     }
   }
 }
@@ -97,7 +97,7 @@ body {
 
   &:hover {
     transition: color .15s linear;
-    color: var(--grey);
+    color: var(--melon);
   }
 }
 
@@ -221,6 +221,11 @@ body {
   margin-bottom: 1.1rem;
 }
 
+.video video {
+  width: 100%;
+  height: auto;
+}
+
 .term {
   margin: 1.6rem 0 .8rem;
   color: var(--grey);
@@ -283,7 +288,7 @@ body {
 
   body {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
   }
 
   .quote-big {
@@ -360,6 +365,10 @@ body {
     grid-area: title;
   }
 
+  .video {
+    grid-area: video;
+  }
+
   .section-detail {
     margin-top: 3.2rem;
     display: grid;
@@ -368,7 +377,8 @@ body {
       'img img img detail'
       'title title title title'
       'brief . concept concept'
-      'visuals visuals visuals visuals';
+      'visuals visuals visuals visuals'
+      'video video video video';
   }
 }
 

@@ -50,10 +50,18 @@
     <?php echo $project['brief'] ?>
   </article>
   <article class="concept">
-  <h3 class="heading">Progress &amp; concept</h3>
-  <?php echo $project['concept'] ?>
-</article>
+    <h3 class="heading">Progress &amp; concept</h3>
+    <?php echo $project['concept'] ?>
+  </article>
   <article class="visuals">
     <h3 class="heading">Visuals</h3>
   </article>
+  <?php if (!empty($project['video'])): ?>
+    <article class="video">
+      <h3 class="heading">Case movie</h3>
+      <video width="1920" height="1080" controls>
+        <source src="/assets/video/<?php echo $project['video']?>.mp4" type="video/mp4"/>
+      </video>    
+    </article>
+  <?php endif; ?>
 </section>

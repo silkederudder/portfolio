@@ -7,9 +7,9 @@
   <meta name="author" content="Silke Derudder">
   <meta name="description" content="Portfolio of Silke Derudder, a creative developer with an eye for design.">
   <meta name="keywords" content="Silke Derudder, digital developer, digital designer, Belgium, digital creative, development, design, devine">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
   <title>Silke Derudder</title>
   <?php echo $css ?>
   <script>
