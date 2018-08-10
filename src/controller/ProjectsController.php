@@ -2,6 +2,7 @@
 
 require_once WWW_ROOT . 'controller' . DS . 'Controller.php';
 require_once WWW_ROOT . 'dao' . DS . 'ProjectDAO.php';
+require_once WWW_ROOT . 'dao' . DS . 'ProjectVisualDAO.php';
 
 class ProjectsController extends Controller {
 
@@ -9,6 +10,7 @@ class ProjectsController extends Controller {
 
   function __construct() {
     $this->projectDAO = new ProjectDAO();
+    $this->projectVisualDAO = new ProjectVisualDAO();
   }
 
   public function overview() {
@@ -30,7 +32,10 @@ class ProjectsController extends Controller {
       exit();
     }
 
+    $visuals = $this->projectVisualDAO->selectById($project['id']);
+
     $this->set('project', $project);
+    $this->set('visuals', $visuals);
     $this->set('title', 'Detail');
     $this->set('currentPage', 'overview');
   }

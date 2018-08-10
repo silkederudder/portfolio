@@ -53,9 +53,14 @@
     <h3 class="heading">Progress &amp; concept</h3>
     <?php echo $project['concept'] ?>
   </article>
-  <article class="visuals">
-    <h3 class="heading">Visuals</h3>
-  </article>
+  <?php if (!empty($visuals)): ?>
+    <article class="visuals">
+      <h3 class="heading">Visuals</h3>
+        <?php foreach ($visuals as $key => $visual): ?>
+          <img src="../assets/images/<?php echo $visual['image'] ?>.jpg" alt="visual"/>
+        <?php endforeach; ?>
+    </article>
+  <?php endif; ?>
   <?php if (!empty($project['video'])): ?>
     <article class="video">
       <h3 class="heading">Case movie</h3>
