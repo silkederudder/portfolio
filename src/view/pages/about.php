@@ -34,8 +34,8 @@
         </picture>
       </header>
       <div class="about-content">
-        <h3 class="heading quote-small">console.log&#40;"Hello World!"&#401;&#59;</h3>
-        <p class="text">As you probably already know, I am Silke. A 21 year old Deviner (student Digital Design &amp; Development) based in Belgium. I’m a curious soul who strives to see design problems with a pair of logical eyes. As a young developer I’m really eager to learn new things, especially if it has something to do with JavaScript. Besides this, I also have a passion for great design that gives people a pleasing and better experience.</p>
+        <h3 class="heading quote-small">console.log&#40;"Hello World!"&#41;&#59;</h3>
+        <p class="text">As you probably already know, I am Silke. A 21 year old Deviner (student Digital Design &amp; Development) based in Belgium. I’m a curious soul who strives to see design problems with a pair of logical eyes. As a young developer I’m really eager to learn new things, especially if it has something to do with JavaScript. Besides this, I also have a passion for design that gives people a pleasing and better experience.</p>
         <p class="text">In my spare time you can often find me at a tennis court acting like I’m a real tennis player or at Ice Mountain Adventure Park learning kids how to ski and&#47;or snowboard. If I’m not being sportsy at all, you can find me drinking some beers with my boyfriend.</p>
         <div class="contact">
           <h3 class="heading">Get in touch</h3>
