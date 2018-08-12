@@ -251,10 +251,11 @@ body {
   .visuals-container {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
   }
 
   .visual {
-    width: 45vw;
+    width: 39vw;
   }
 
   .section-quote {
